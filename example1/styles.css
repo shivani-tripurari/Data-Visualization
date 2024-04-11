@@ -1,0 +1,42 @@
+/* styles.css */
+
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Main container styles */
+  .main-container {
+    margin: 20px auto; /* Center the container */
+    max-width: 960px; /* Limit the width of the container */
+  }
+  
+  /* Chart container styles */
+  .chart-container {
+    border: 1px solid #ccc; /* Add a border for visual clarity */
+    padding: 10px;
+  }
+  
+  /* SVG styles */
+  svg {
+    display: block; /* Ensure SVG elements are displayed as blocks */
+    margin: auto; /* Center the SVG */
+  }
+  
+  /* Title styles */
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Link styles */
+  a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
